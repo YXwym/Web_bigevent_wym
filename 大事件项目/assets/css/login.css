@@ -4,14 +4,26 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
-    background: url('/大事件项目/assets/images/big.gif') no-repeat center;
+    background: url('/assets/images/big.gif') no-repeat center;
     background-size: 100%;
+}
+
+.header,
+img {
+    width: 150px;
+    height: 125px;
+}
+
+.header {
+    padding-top: 20px;
+    padding-right: 1400px;
 }
 
 .loginAndRegBox {
     width: 400px;
     height: 310px;
     background-color: #ccc;
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -20,7 +32,7 @@ body {
 
 .title-box {
     height: 60px;
-    background:url(/大事件项目/assets/images/login_title.png) no-repeat center;
+    background: url(/assets/images/login_title.png) no-repeat center;
 
 }
 
@@ -39,6 +51,7 @@ body {
 
 .links a {
     font-size: 12px;
+    color: slategray;
 }
 
 .layui-form-item {
